@@ -123,8 +123,8 @@ while True:
             current_image = None
 
 
-    cv2.namedWindow("Gesture Camera", cv2.WINDOW_KEEPRATIO)   # Create resizable window
-    cv2.resizeWindow("Gesture Camera", 640, 480)           # Match window size to camera frame
+    cv2.namedWindow("Gesture Camera", cv2.WINDOW_KEEPRATIO)
+    cv2.resizeWindow("Gesture Camera", 640, 480)
     cv2.imshow("Gesture Camera", frame)
 
     cv2.imshow("Gesture Camera", frame)
